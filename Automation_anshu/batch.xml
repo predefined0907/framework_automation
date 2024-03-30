@@ -1,0 +1,25 @@
+
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel ="tests"  name="Suite">
+  <test name="TestRunner1">
+    <classes>
+     
+      <class name="testNG.LaernToReadTheDataByUsingDataProviderAnnotation_InDiffClass"/>
+      <class name="testNG.LearnToReadTheDataByUsing_DataProviderAnotaion_InSameClass"/>
+     
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="TestRunner2">
+    <classes>
+     
+      <class name="testNG.PreAndPostCondtionAnnotations"/>
+     
+      <class name="endToEnd.CreateAndDeleteBoards"/>
+      <class name="testNG.PreAndPostConditionThroughAnotation"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  </suite> <!-- Suite -->
